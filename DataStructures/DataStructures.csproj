@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <EnableDefaultContentItems>false</EnableDefaultContentItems>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="obj\Debug\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\netcoreapp3.1\DataStructures.AssemblyInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\netcoreapp3.1\DataStructures.deps.json" />
+    <Content Include="obj\DataStructures.csproj.nuget.dgspec.json" />
+    <Content Include="obj\Debug\netcoreapp3.1\DataStructures.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\project.assets.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Graph\AdjancencyList\" />
+    <Folder Include="Graph\AdjancencyMatrix\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\netcoreapp3.1\DataStructures.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\DataStructures.pdb" />
+    <None Include="obj\DataStructures.csproj.nuget.g.props" />
+    <None Include="obj\DataStructures.csproj.nuget.g.targets" />
+    <None Include="obj\Debug\netcoreapp3.1\DataStructures.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\DataStructures.assets.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\DataStructures.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\DataStructures.csprojAssemblyReference.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\DataStructures.dll" />
+    <None Include="obj\Debug\netcoreapp3.1\DataStructures.pdb" />
+    <None Include="obj\project.nuget.cache" />
+  </ItemGroup>
+
+</Project>
